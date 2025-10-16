@@ -9,16 +9,14 @@ from github import Github
 from lxml.etree import CDATA
 from marko.ext.gfm import gfm as marko
 
-MD_HEAD = """**<p align="center">[LightSeeker's Blog]()</p>**
+MD_HEAD = """**<p align="center">[LightSeeker's Blog](https://lightseekr.github.io/#/)</p>**
 ====
 
 **<p align="center">用于记录</p>**
 
 ## 联系方式
-- Twitter：待定
-- Telegram：待定
-- Email：待定
-- Blog：待定
+- Email："tskui66@gmail.com"
+- Blog：[https://lightseekr.github.io](https://lightseekr.github.io/#/)
 """
 
 BACKUP_DIR = "backup"
